@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightsteelblue;
+}
+
+.github-widget {
+  background-color: steelblue;
+  width: 600px;
+  margin: 0 auto;
+
+  &>p {
+    margin: 0 auto;
+    width: fit-content;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+  }
+
+}
+
+.github-item {
+  background-image: linear-gradient(lightsteelblue 40%, white);
+  overflow: auto;
+
+  img {
+    display: block;
+    width: 15%;
+    height: 15%;
+    float: left;
+    border-radius: 5px;
+  }
+
+  .item-details {
+    margin-left: 3%;
+    width: 80%;
+    float: left;
+
+
+    p:last-child {
+      font-size: 1rem;
+      font-weight: bold;
+    }
+
+    span {
+      color: darkblue;
+    }
+
+    h3 {
+      margin: 0 0 6px 0;
+    }
+
+  }
+
+}
+
+div {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid darkblue;
+}
+
+p {
+  margin: 0;
+  padding: 5px 0;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  margin-top: 10px;
+
+  &:link, &:visited, &:hover, &:active {
+    color: inherit;
+    outline: 0;
+  }
+}

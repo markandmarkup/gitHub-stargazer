@@ -1,0 +1,1 @@
+Readme placeholder for js/es5/ folder

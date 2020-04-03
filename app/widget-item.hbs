@@ -1,0 +1,12 @@
+{{#each items}}
+<a href="{{html_url}}" target="_blank">
+    <div class="github-item">
+        <img src="{{owner.avatar_url}}" />
+        <div class="item-details">
+            <h3>{{name}}</h3>
+            <p>{{description}}</p>
+            <p>No. of stars: <span>{{stargazers_count}}</span></p>
+        </div>
+    </div>
+</a>
+{{/each}}

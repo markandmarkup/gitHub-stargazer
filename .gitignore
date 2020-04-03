@@ -1,0 +1,5 @@
+.DS_Store
+.idea/
+node_modules/
+css/!readme.md
+js/es5/!readme.md
